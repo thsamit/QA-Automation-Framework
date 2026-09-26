@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Agent & Playwright Local Caches
+.playwright-mcp/
+playwright/.cache/
+
+# Playwright Test Execution Artifacts
+test-results/
+playwright-report/
+blob-report/
+
+# Logs & Environment Variables
+*.log
+npm-debug.log*
+.env
